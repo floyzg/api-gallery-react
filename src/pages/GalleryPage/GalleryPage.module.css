@@ -1,0 +1,10 @@
+.gallery {
+  min-height: 100vh;
+  background: #030303;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
