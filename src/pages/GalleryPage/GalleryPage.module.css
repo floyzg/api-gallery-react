@@ -1,10 +1,25 @@
-.gallery {
+.page {
   min-height: 100vh;
-  background: #030303;
-  color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
+  background: var(--color-bg);
+}
+
+.container {
+  width: 100%;
+  max-width: var(--container-desktop);
+  margin: 0 auto;
+  padding: 20px 0 80px;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: var(--container-tablet);
+    padding-top: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    max-width: var(--container-mobile);
+    padding-top: 88px;
+  }
 }

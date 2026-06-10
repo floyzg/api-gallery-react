@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 44px;
+}
+
+.themeButton {
+  width: 44px;
+  height: 44px;
+
+  border: none;
+  border-radius: 50%;
+
+  background: #1a1818;
+  color: white;
+
+  cursor: pointer;
+}

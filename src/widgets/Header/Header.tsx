@@ -1,3 +1,9 @@
+import styles from "./Header.module.css";
+
 export const Header = () => {
-  return <header>Header</header>;
+  return (
+    <header className={styles.header}>
+      <button className={styles.themeButton}>☀️</button>
+    </header>
+  );
 };

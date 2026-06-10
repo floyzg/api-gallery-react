@@ -1,10 +1,14 @@
 import styles from "./GalleryPage.module.css";
+import { Header } from "../../widgets/Header/Header";
+import { GalleryGrid } from "../../widgets/GalleryGrid/GalleryGrid";
 
 export const GalleryPage = () => {
   return (
-    <main className={styles.gallery}>
-      <h1>Art Gallery</h1>
-      <p>Gallery page is under development</p>
+    <main className={styles.page}>
+      <div className={styles.container}>
+        <Header />
+        <GalleryGrid />
+      </div>
     </main>
   );
-};
+};  
